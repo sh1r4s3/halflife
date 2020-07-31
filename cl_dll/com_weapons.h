@@ -30,7 +30,7 @@ void			HUD_SetMaxSpeed( const struct edict_s *ed, float speed );
 int				stub_PrecacheModel( char* s );
 int				stub_PrecacheSound( char* s );
 unsigned short	stub_PrecacheEvent( int type, const char *s );
-const char		*stub_NameForFunction	( uint32 function );
+const char		*stub_NameForFunction	( void *function );
 void			stub_SetModel			( struct edict_s *e, const char *m );
 
 
